@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 __pycache__/
 *.py[cod]
 .venv/
@@ -13,3 +14,7 @@ reports/*.png
 reports/*.txt
 !data/.gitkeep
 !reports/.gitkeep
+=======
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+>>>>>>> 96e89c0dcb447e50aebb167193d2ed9d03fd3a37

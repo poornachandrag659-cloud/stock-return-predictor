@@ -1,0 +1,8 @@
+[
+  "tests/test_backtest.py::test_bootstrap_shape_and_seed",
+  "tests/test_backtest.py::test_costs_reduce_returns",
+  "tests/test_backtest.py::test_metrics_known_values",
+  "tests/test_features.py::test_features_finite_and_target_shift",
+  "tests/test_features.py::test_rsi_bounded",
+  "tests/test_features.py::test_target_last_day_removed"
+]
