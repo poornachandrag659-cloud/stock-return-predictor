@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stock-return-predictor"
+version = "1.0.0"
+description = "Leakage-aware ML research pipeline for next-day stock return prediction and bootstrap backtesting."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Stock Return Predictor contributors"}]
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scikit-learn>=1.3", "matplotlib>=3.7", "yfinance>=0.2.40", "PyYAML>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.4"]
+
+[project.scripts]
+stock-predictor = "stock_predictor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
