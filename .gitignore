@@ -1,15 +1,2 @@
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.env
-.pytest_cache/
-.ruff_cache/
-.DS_Store
-data/*.csv
-reports/*.csv
-reports/*.json
-reports/*.png
-reports/*.txt
-!data/.gitkeep
-!reports/.gitkeep
+# Created by pytest automatically.
+*
