@@ -1,0 +1,13 @@
+ticker: SPY
+start_date: "2015-01-01"
+end_date: null
+test_fraction: 0.20
+validation_fraction: 0.15
+initial_capital: 10000
+transaction_cost_bps: 5
+short_borrow_bps_per_day: 1
+threshold: 0.0
+monte_carlo_paths: 1000
+monte_carlo_block_size: 5
+random_seed: 42
+model: random_forest

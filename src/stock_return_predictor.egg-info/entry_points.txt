@@ -1,0 +1,2 @@
+[console_scripts]
+stock-predictor = stock_predictor.cli:main
